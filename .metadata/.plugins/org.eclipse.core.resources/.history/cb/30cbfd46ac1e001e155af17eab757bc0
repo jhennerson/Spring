@@ -1,0 +1,5 @@
+package com.example.aulajparepository.repositories;
+
+public interface UserRepository {
+
+}
