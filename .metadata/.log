@@ -666,3 +666,294 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 21:43:21.427
 !MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 21:50:54.917
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 21:51:18.233
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-10 21:53:41.001
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 21:53:50.438
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 21:59:48.199
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:02:17.622
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:02:38.455
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:03:13.972
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:03:22.717
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:05:02.945
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:06:41.732
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:09:36.584
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:14:01.601
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:16:48.335
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:17:23.896
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:17:42.686
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:17:48.951
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:19:23.181
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:20:48.629
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:21:23.067
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:24:06.474
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:24:32.406
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:24:56.211
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:25:20.614
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:25:24.678
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-10 22:26:18.405
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-07-10 22:34:24.667
+!MESSAGE An internal error occurred during: "AsyncLiveExpression refresh".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.Activator.getLog()" because the return value of "org.springsource.ide.eclipse.commons.livexp.Activator.getDefault()" is null
+	at org.springsource.ide.eclipse.commons.livexp.Activator.log(Activator.java:63)
+	at org.springsource.ide.eclipse.commons.livexp.core.ObservableSet$Builder$1.compute(ObservableSet.java:48)
+	at org.springsource.ide.eclipse.commons.livexp.core.ObservableSet$Builder$1.compute(ObservableSet.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springsource.ide.eclipse.commons.livexp.core.AsyncLiveExpression.syncRefresh(AsyncLiveExpression.java:134)
+	at org.springsource.ide.eclipse.commons.livexp.core.AsyncLiveExpression$1.run(AsyncLiveExpression.java:101)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-07-11 20:33:52.110 -----------------------------------------------
+eclipse.buildId=4.19.0.202306150758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-07-11 20:33:54.207
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-07-11 20:34:08.606
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-11 20:34:08.606
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-11 20:34:12.078
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\sts-4.19.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\sts-4.19.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Jhennerson/Documents/GitHub/Spring/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1689118452078
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 20:34:12.079
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-07-11 20:34:12.113
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10004
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-07-11 20:34:12.421
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:291)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-11 20:34:13.134
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jhennerson'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 20:34:13.326
+!MESSAGE Boot project ADDED: aula-jparepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 20:34:13.328
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 20:34:13.332
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 20:34:13.333
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 20:34:13.336
+!MESSAGE Boot project ADDED: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 20:34:13.337
+!MESSAGE Boot project ADDED: dslist-backend-main
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 20:52:42.353
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 20:53:39.340
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 20:54:59.007
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 20:57:41.903
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 20:59:41.638
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:05:51.324
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:06:20.777
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:08:09.601
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:09:27.365
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.eclipse.jface 2 0 2023-07-11 21:14:27.023
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-11 21:14:27.023
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:18:03.323
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:24:52.386
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:25:00.357
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:29:23.096
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:32:39.685
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:32:58.519
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:34:40.871
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:35:05.583
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:35:24.095
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:35:46.391
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:37:21.718
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:37:39.155
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:38:38.539
+!MESSAGE Classpath changed for project: dslist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-11 21:38:50.528
+!MESSAGE Classpath changed for project: dslist
